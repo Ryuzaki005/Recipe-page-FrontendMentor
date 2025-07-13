@@ -1,0 +1,84 @@
+body{
+    padding: 35px 30px;
+    font-size: 20px;
+    color: #5e5d5d;
+    font-family: "Outfit", sans-serif;
+
+}
+li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 75px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 30px;
+    border-bottom: 2px solid #E0E0E0; /* Light bottom border for separation */
+}
+
+.divider {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-bottom: 2px solid #E0E0E0; /* Light bottom border for separation */
+}
+
+tr:last-child > td {
+    border-bottom: none;
+}
+
+img{
+    /* display: block; */
+    width: 100%;
+    border-radius: 20px;
+}
+
+.redcolor {
+    color: #6E2040;
+}
+
+.backgrd{
+    background-color: #FFF7FC;
+    padding: 10px 35px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+h1{
+    font-size: 40px;
+    color: black;
+}
+
+h2 {
+    color: #81493A;
+    font-size: 30px;
+}
+
+.bold-grey{
+    font-weight: bolder;
+    color: #6A6965;
+}
+
+.tdred {
+    color: #794A42;
+    font-weight: 900;
+}
+
+@media (max-width: 767px) {
+  /* CSS appliqué uniquement sur les écrans de 767px de large ou moins (mobiles) */
+  body {
+    padding: 0px; /* Moins de padding sur mobile */
+    margin: 0px;
+  }
+  img{
+    border-radius: 0px;
+    width: 100%;
+  }
+  .afterImg {
+    padding: 30px;
+  }
+}
